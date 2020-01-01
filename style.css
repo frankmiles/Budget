@@ -1,0 +1,21 @@
+.input_container{
+border: solid #B93939 5px;
+width: 10%;
+border-radius: 15px;
+margin: 10px auto;
+background: white;
+padding: 38px;
+}
+.input_submit{
+border: 5px;
+width: 15px;
+margin: 10px auto;
+  background: white;
+  padding: 38px;
+}
+.login{
+color: 800000;
+margin: 10px auto;
+  width: 12px;
+  padding: 15px;
+}
