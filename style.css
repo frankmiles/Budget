@@ -11,6 +11,8 @@ border-radius: 15px;
 margin: 10px auto;
 background: white;
 padding: 38px;
+overflow: hidden;
+align-self: auto;
 }
 .input_submit{  /* Will be Depricated from @frankmiles 1.0.0*/
 border: 5px;
