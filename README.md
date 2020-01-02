@@ -9,8 +9,9 @@
 > - [Nitish Kumar](https://github.com/frankmiles)
 > - [Abhay Shankar Pandit](https://github.com/abhay172002)
 > - [Ujjwal Franklin Tirkey](https://github.com/keshrinitish)
+>-  [Suraj Kumar Soni](https://gthub.com/salazar64)
 
-> ###### This is our pet project. Since, we don't have a perticular tool to save our day to day
-> ###### expence. So to fill that gap we have a idea to stop some daily unnecessary task, we
+> ###### This is our pet project. Since, we don't have a particular tool to save our day to day
+> ###### expense. So to fill that gap we have a idea to stop some daily unnecessary task, we
 > ###### (as a student) were doing unknowingly.
 
