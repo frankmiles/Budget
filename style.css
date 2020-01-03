@@ -5,9 +5,12 @@ padding: 0;
   backface-visibility: visible;
   height: auto;
   width: auto;
-  background-size: contain;
+  background-size:cover;
   background-position: center;
   align-items: center;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .input_container{
 border: solid #B93939 5px;
@@ -66,7 +69,7 @@ margin: 10px auto;
 }
 
 .button2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 120px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* End of 1.0.0 */
