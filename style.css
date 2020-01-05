@@ -72,7 +72,7 @@ margin: 10px auto;
 }
 .men{
   text-align: center;
-  background: rgb(0,100,0);
+  background: rgb(255,6,6,1);
 }
 .men ul{
   display: inline-flex;
@@ -88,23 +88,33 @@ margin: 10px auto;
 .men ul li a{
   text-decoration: none;
   color: #fff;
+  width: 50px;
 }
 .active, .men ul li:hover{
 background: #2bab0d;
-border-radius: 3px;
+border-radius: 13px;
+
 }
 .men .fa{
   margin-right:5px;
 }
 .submen{
-  display: none;
+  display:none;
 }
+
+li{
+  height: 20px;
+}
+
 .men ul li:hover .submen{
   display: block;
   position: absolute;
   background: rgb(0,100,0);
-  margin-top: 15px;
+  margin-top: 0px;
   margin-left: 2px;
+}
+.submen li:hover{
+  display: block;
 }
 .men ul li:hover .submen ul{
   display: block;
