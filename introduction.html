@@ -2,9 +2,11 @@
 <head>
   <title>INTRODUCTION</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="model.css">
+  <link rel="stylesheet" type="text/css" href="date.css">
+  <link rel="stylesheet" type="text/css" href="introduction.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="index.js"></script>
+<script src="date.js"></script>
 <script src="model.js"></script>
 </head>
     <body>
@@ -14,35 +16,35 @@
             <li><a href="index.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Daily
             <div class="submen">
               <ul>
-                <li> <a href="index.html">Expense</li>
-                <li> <a href="index.html">content</li>
+                <li> <a href="index.html">Expense</a></li>
+                <li> <a href="index.html">content</a></li>
               </ul>
            </div>
           </li>
-          <li><a href="index.html"><i class="fa fa-calendar-o" aria-hidden="true"></i><a href="TestPhase/model.html">Calender</a></li>
-                <li><a href="index.html"><i class="fa fa-th-large" aria-hidden="true"></i>Weekly</li>
-                  <li><a href="index.html"><i class="fa fa-list-alt" aria-hidden="true"></i>Monthly</li>
-                    <li><a href="index.html"><i class="fa fa-inr" aria-hidden="true"></i>Total</li>
-                    <li><a href="index.html"><i class="fa fa-user" aria-hidden="true"></i>About Us</li>
+          <!-- Trigger/Open The Modal -->
+          <li onclick="calender()"><i class="fa fa-calendar-o" aria-hidden="true" onclick="calender()"></i>Calender</li>
+                <li><a href="index.html"><i class="fa fa-th-large" aria-hidden="true"></i>Weekly</a></li>
+                  <li><a href="index.html"><i class="fa fa-list-alt" aria-hidden="true"></i>Monthly</a></li>
+                    <li><a href="index.html"><i class="fa fa-inr" aria-hidden="true"></i>Total</a></li>
+                    <li><a href="index.html"><i class="fa fa-user" aria-hidden="true"></i>About Us</a></li>
         </ul>
       </div>
 
       <!-- Adding datemodel @frankmiles 1.2.3-->
-      <!-- Trigger/Open The Modal -->
-      <button id="btn_model">Open Modal</button>
+
 
       <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close">&times;</span>
+          <!-- <span class="close">&times;</span> -->
           <div class="mobile-wrapper">
 
              <!--======= Header =======-->
 
              <header class="header">
                 <div class="container">
-                   <span>Welcome Back!</span>
+                   <span>Welcome Back Nitish!</span>
                    <h1>Calendar Plan</h1>
 
                    <div class="menu-toggle">
@@ -128,8 +130,40 @@
              </section>
           </div>
         </div>
-
       </div>
+
+      <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      function calender() {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
       <!-- END of 1.2.3 -->
+
     </body>
 </html>
