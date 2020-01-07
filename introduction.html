@@ -2,8 +2,10 @@
 <head>
   <title>INTRODUCTION</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="model.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="index.js"></script>
+<script src="model.js"></script>
 </head>
     <body>
       <div class="men">
@@ -17,12 +19,117 @@
               </ul>
            </div>
           </li>
-          <li><a href="index.html"><i class="fa fa-calendar-o" aria-hidden="true"></i>Calender</li>
+          <li><a href="index.html"><i class="fa fa-calendar-o" aria-hidden="true"></i><a href="TestPhase/model.html">Calender</a></li>
                 <li><a href="index.html"><i class="fa fa-th-large" aria-hidden="true"></i>Weekly</li>
                   <li><a href="index.html"><i class="fa fa-list-alt" aria-hidden="true"></i>Monthly</li>
                     <li><a href="index.html"><i class="fa fa-inr" aria-hidden="true"></i>Total</li>
                     <li><a href="index.html"><i class="fa fa-user" aria-hidden="true"></i>About Us</li>
         </ul>
       </div>
+
+      <!-- Adding datemodel @frankmiles 1.2.3-->
+      <!-- Trigger/Open The Modal -->
+      <button id="btn_model">Open Modal</button>
+
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="mobile-wrapper">
+
+             <!--======= Header =======-->
+
+             <header class="header">
+                <div class="container">
+                   <span>Welcome Back!</span>
+                   <h1>Calendar Plan</h1>
+
+                   <div class="menu-toggle">
+                      <div>
+                         <span></span>
+                         <span></span>
+                         <span></span>
+                      </div>
+                   </div>
+                </div>
+             </header>
+
+             <!--======= Today =======-->
+
+             <section class="today-box" id="today-box">
+                <span class="breadcrumb">Today</span>
+                <h3 class="date-title">May 15, 2018</h3>
+
+                <div class="plus-icon">
+                   <i class="ion ion-ios-add"></i>
+                </div>
+             </section>
+
+             <!--======= Upcoming Events =======-->
+
+             <section class="upcoming-events">
+                <div class="container">
+                   <h3>
+                      Lastest Events
+
+                   </h3>
+                   <div class="events-wrapper">
+                      <div class="event">
+                         <i class="ion ion-ios-flame hot"></i>
+                         <h4 class="event__point">11:00 am</h4>
+                         <span class="event__duration">in 30 minutes.</span>
+                         <p class="event__description">
+                            Monday briefing with the team (...).
+                         </p>
+                      </div>
+                      <div class="event">
+                         <i class="ion ion-ios-flame done"></i>
+                         <h4 class="event__point">12:00 pm</h4>
+                         <span class="event__duration">in 1 hour.</span>
+                         <p class="event__description">
+                            Lunch with Paul Mccartney @Burgers House!
+                         </p>
+                      </div>
+                      <div class="event active">
+                         <i class="ion ion-ios-radio-button-on icon-in-active-mode"></i>
+                         <h4 class="event__point">14:00 pm</h4>
+                         <p class="event__description">
+                            Meet clients from project.
+                         </p>
+                      </div>
+                      <div class="event">
+                         <i class="ion ion-ios-flame-outline upcoming"></i>
+                         <h4 class="event__point">20:45 pm</h4>
+                         <span class="event__duration">in 45 minutes.</span>
+                         <p class="event__description">
+                            Watch sci-fi series.
+                         </p>
+                      </div>
+                      <div class="event">
+                         <i class="ion ion-ios-flame-outline upcoming"></i>
+                         <h4 class="event__point">23:15 pm</h4>
+                         <span class="event__duration">in 20 minutes.</span>
+                         <p class="event__description">
+                            Customer dialog on Skype.
+                         </p>
+                      </div>
+                   </div>
+                   <button class="add-event-button">
+                      <span class="add-event-button__title">Add Event</span>
+
+                      <span class="add-event-button__icon">
+                         <i class="ion ion-ios-star-outline"></i>
+                      </span>
+
+
+                   </button>
+                </div>
+             </section>
+          </div>
+        </div>
+
+      </div>
+      <!-- END of 1.2.3 -->
     </body>
 </html>
