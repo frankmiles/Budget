@@ -121,12 +121,13 @@ li{
   margin: 10px;
 }
 .men ul li:hover .submen ul li{
-  border-bottom: 1px dotted #fff;
+  border-bottom: 1px #fff;
   width 150px;
   padding: 10px;
   background: trasparent;
   border-radius: 0px;
   text-align: left;
+  margin-top: 40px;
 }
 .men ul li:hover .submen ul li:last-child{
   border-bottom: none;
